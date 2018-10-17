@@ -1,0 +1,21 @@
+<html>
+
+	<head>
+		<title>REAL TIME EDITOR</title>
+		<link rel="stylesheet"  href="style.css" type="text/css"/>
+		<script>
+			function refresh() {
+				var textContent = document.getElementById("editor-texta").value;
+				document.getElementById("viever").srcdoc = textContent;
+			}
+		</script>
+	</head>
+	<body>
+
+	</body>
+		<div class="main">
+			<textarea id="editor-texta" onkeyup="refresh()" ></textarea>
+			<iframe id="viever"></iframe>
+		</div>
+	</body>
+</html>

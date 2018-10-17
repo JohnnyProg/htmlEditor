@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main{
+	background: #ecf0f1;
+	width:100%;
+	height: 100%;
+	display: inline-flex;
+	
+}
+#editor-texta{
+	width: 100%;
+	height: 90%;
+	margin: 10px;
+}
+#viever{
+	background: white;
+	border: 1px solid;
+	width:100%;
+	height: 95%;
+}
